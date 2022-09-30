@@ -1,0 +1,38 @@
+I will make a App usage Tracker.......
+
+15.3.22 - 10:03 am :- 
+1.Start by creating a folder and a file.
+2.I want to know which all applications are open currently and for how long they are open.
+3.It shows a graph of the usage 
+5.I started by google searching "how to know the time a particular applications was active through python"
+6.got to know about psutil library from geeksforgeeks it measures the cpu usage
+7.https://www.youtube.com/watch?v=ZBLYcvPl1MA found out this video on automatic app usage time tracking 
+8.maybe it can run a loop and keep checking active windows and the loop can end when the shutdown window is active.
+9.I was facing problem with win32gui library so looked on for it's alternatives, found a articles on geeksforgeeks. https://www.geeksforgeeks.org/python-get-list-of-running-processes/ and https://www.geeksforgeeks.org/how-to-check-if-an-application-is-open-in-python/
+10.WMI is amazing python library. Read about wmi on Pypi.org and It's documentation 
+11.I want to know the current open tabs in the browser
+12.it'll save all the data in a txt file with the current date and time 
+13.I found about a library called subprocesses for the browser thing
+
+16.3.22 - 8:52 am :- 
+1.I start by reading subprocesses docs.
+2.Before i began reading, i got an idea That i record when an application is closed or opened
+i searched the following :- how to print when an application is closed or opened via python
+3.Found some results on stackoverflow but it was kinda useless, i wasnt finding great results
+4.Moved to read the docs which is the most boring task in the world
+
+12.7.22 - 8:42 am :-
+1.Resuming the project after 4 months.....
+2.I got a idea, if the program continously monitored the application, it would result in a 
+serious lag. So what it would do is, it would check when an application is opened and when 
+it is closed. it would note both the timestamps when it is opened and closed. it would 
+subtract the closing time from the opening time. And we would get the time for which was 
+opened.
+3.websites i went to:-
+https://stackoverflow.com/questions/7787120/check-if-a-process-is-running-or-not-on-windows
+https://www.codegrepper.com/code-examples/python/python+check+if+an+application+is+opened
+https://www.w3resource.com/python-exercises/file/python-io-exercise-16.php
+https://www.programiz.com/python-programming/file-operation
+4.Found Psutil -  library for retrieving information on running processes and system utilization 
+(CPU, memory, disks, network, sensors) in Python. It is useful mainly for system monitoring,
+profiling, limiting process resources and the management of running processes
