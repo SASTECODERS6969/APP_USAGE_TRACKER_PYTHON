@@ -1,4 +1,5 @@
 import wmi
+import win32api
 
 f = wmi.WMI()
 
@@ -45,7 +46,7 @@ for process in f.Win32_Process():
         break
   
 if flag == 0:
-    # print("droidcam is not Running")
+    print("droidcam is not Running")
 
 
 for process in f.Win32_Process():
@@ -55,7 +56,7 @@ for process in f.Win32_Process():
         break
   
 if flag == 0:
-    # print("chrome is not Running")
+    print("chrome is not Running")
 
-while True():
-    if 
+# while True():
+    # if

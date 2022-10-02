@@ -36,3 +36,33 @@ https://www.programiz.com/python-programming/file-operation
 4.Found Psutil -  library for retrieving information on running processes and system utilization 
 (CPU, memory, disks, network, sensors) in Python. It is useful mainly for system monitoring,
 profiling, limiting process resources and the management of running processes
+
+30.9.22 - 8:36 pm
+
+Resuming the project after another 3 months.... sad, i gotta be more consistent 
+since i am working on this project after so long, therefore i will start fresh.....
+
+1. started by searching google:- 'how to make a app usage tracker for windows 10 in python'
+got some interesting results:-
+    https://www.youtube.com/watch?v=ZBLYcvPl1MA
+    https://www.youtube.com/watch?v=uNmJppc-gR8
+    https://askubuntu.com/questions/883557/how-can-i-make-this-window-application-time-track-script-produce-sorted-outpu
+    https://stackoverflow.com/questions/54960975/how-do-time-tracking-softwares-find-screen-time-of-applications
+    https://dev.to/tkkhhaarree/track-windows-app-usage-time-using-python-h9h
+    https://medium.com/analytics-vidhya/how-to-build-your-first-desktop-application-in-python-7568c7d74311
+    https://towardsdatascience.com/learn-how-to-create-web-data-apps-in-python-b50b624f4a0e
+
+
+1.10.22 - 5:36 pm
+
+1. Maybe pywin32 is a solution to my program. 
+therefore start with reading the documentation
+https://pypi.org/project/pywin32/
+http://timgolden.me.uk/pywin32-docs/contents.html
+
+2. I didnt find much documentation online for it.
+3. Played around with pywin32 alot, but didnt achieve progress as such
+so i think i will find a new way. Pywin32 didnt have much of available documentation and it was way to complex for me.
+
+4. Another library i found was psutil, let me try on That
+
