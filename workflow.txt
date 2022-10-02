@@ -66,3 +66,12 @@ so i think i will find a new way. Pywin32 didnt have much of available documenta
 
 4. Another library i found was psutil, let me try on That
 
+2.10.22 - 11:41 pm
+
+1. today i'll try making the programme with psutil, about which i have 0 knowledge, i shall start with
+reading the docs and watching a video.
+
+resources:- 
+https://psutil.readthedocs.io/en/latest/
+
+2.
